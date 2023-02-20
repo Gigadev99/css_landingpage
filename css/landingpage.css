@@ -1,7 +1,18 @@
 
 body {
     background-color: violet;
-    max-width: 300px;
-    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin:0
+}
+.content {
+    flex-grow:1;
+}
+.header, .footer {
+    background-color:#1F2937;
+    height:30px;
     
 }
+
