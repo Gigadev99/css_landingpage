@@ -142,7 +142,7 @@ p {
 }
 .gallery p {
     text-align: center;
-    font-weight:260;
+    font-weight:300;
     margin-top:5px;
 }
 
@@ -151,5 +151,23 @@ p {
 .thor {
     background-color:#e5e7eb;
     height:350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.quote {
+    padding-top:15px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote div {
+    font-size: 22px;
+    text-align: end;
+    font-style: normal;
+    font-weight:bold;
+    margin-top:10px;
+    padding-right:40px;
+}
+
 
